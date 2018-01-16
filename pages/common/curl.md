@@ -34,3 +34,7 @@
 - Pass client certificate and key for a resource, skipping certificate validation:
 
 `curl --cert {{client.pem}} --key {{key.pem}} --insecure {{https://example.com}}`
+
+- Check server headers:
+
+`curl -I {{http://example.com}}`
